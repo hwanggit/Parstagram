@@ -1,20 +1,38 @@
 PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - Bolts/Tasks (1.9.0)
   - CameraManager (4.4.0)
+  - Parse (1.17.3):
+    - Parse/Core (= 1.17.3)
+  - Parse/Core (1.17.3):
+    - Bolts/Tasks (~> 1.9)
   - RSKPlaceholderTextView (6.0.2)
 
 DEPENDENCIES:
+  - AlamofireImage
   - CameraManager (~> 4.4)
+  - Parse
   - RSKPlaceholderTextView
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - AlamofireImage
+    - Bolts
     - CameraManager
+    - Parse
     - RSKPlaceholderTextView
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
+  Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
   RSKPlaceholderTextView: 1bd95b1fdcbc51316ac1b27a2dadb1c774d7461a
 
-PODFILE CHECKSUM: ad5906f809686802960c165d7b50b021f4f657fb
+PODFILE CHECKSUM: afdbe4c28c90e0639060f5e641dd6b6b0d4167e7
 
 COCOAPODS: 1.8.4
