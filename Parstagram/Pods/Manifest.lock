@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 73206269fac581f15e1259251a72232fd5705763
+PODS:
+  - CameraManager (4.4.0)
+  - RSKPlaceholderTextView (6.0.2)
+
+DEPENDENCIES:
+  - CameraManager (~> 4.4)
+  - RSKPlaceholderTextView
+
+SPEC REPOS:
+  trunk:
+    - CameraManager
+    - RSKPlaceholderTextView
+
+SPEC CHECKSUMS:
+  CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
+  RSKPlaceholderTextView: 1bd95b1fdcbc51316ac1b27a2dadb1c774d7461a
+
+PODFILE CHECKSUM: ad5906f809686802960c165d7b50b021f4f657fb
 
 COCOAPODS: 1.8.4

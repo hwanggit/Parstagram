@@ -6,6 +6,8 @@ target 'Parstagram' do
   use_frameworks!
 
   # Pods for Parstagram
+  pod 'CameraManager', '~> 4.4'
+  pod 'RSKPlaceholderTextView'
 
   target 'ParstagramTests' do
     inherit! :search_paths
