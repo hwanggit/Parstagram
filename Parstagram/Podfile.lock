@@ -4,6 +4,9 @@ PODS:
     - Alamofire (~> 4.9)
   - Bolts/Tasks (1.9.0)
   - CameraManager (4.4.0)
+  - MessageInputBar (0.4.1):
+    - MessageInputBar/Core (= 0.4.1)
+  - MessageInputBar/Core (0.4.1)
   - Parse (1.17.3):
     - Parse/Core (= 1.17.3)
   - Parse/Core (1.17.3):
@@ -13,6 +16,7 @@ PODS:
 DEPENDENCIES:
   - AlamofireImage
   - CameraManager (~> 4.4)
+  - MessageInputBar
   - Parse
   - RSKPlaceholderTextView
 
@@ -22,6 +26,7 @@ SPEC REPOS:
     - AlamofireImage
     - Bolts
     - CameraManager
+    - MessageInputBar
     - Parse
     - RSKPlaceholderTextView
 
@@ -30,9 +35,10 @@ SPEC CHECKSUMS:
   AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
+  MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
   Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
   RSKPlaceholderTextView: 1bd95b1fdcbc51316ac1b27a2dadb1c774d7461a
 
-PODFILE CHECKSUM: afdbe4c28c90e0639060f5e641dd6b6b0d4167e7
+PODFILE CHECKSUM: b383a81e63fb3111a706d127cbf243b6c1d5c556
 
 COCOAPODS: 1.8.4

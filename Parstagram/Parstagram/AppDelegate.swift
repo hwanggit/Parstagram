@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://immense-hamlet-96285.herokuapp.com/parse"
             })
         )
+        
         return true
     }
     
